@@ -67,6 +67,8 @@ Something to help visualize the workflow:
     
 All of this is completed in the [Active Learning 1 Jupyter Notebook](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Activelearning1.ipynb) where I preprocess the data set and complete thi iteretive workflow to search for the samples with the best concrete compressive strength. 
 
+Once the workflow was finished running I plotted the highest compressive strength labels found for each querying method over iterations. 
+
 
 
 
