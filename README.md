@@ -2,7 +2,7 @@
 
 This project aims to explore the applications of the Gaussian Process (GP). The learning outcomes of this project are to understand the defining equations of a GP, how a GP can be used in a larger baysian optimization workflow, and and what are the key components of utilizing this machine learning model. 
 
-Defining Equations:
+## Defining Equations:
 
 A gaussian process regression can be defined by calculating the mean function and the covariance function of the data we are modeling. A graph of this is shown in  [Gaussian Process Jupyter Notebook File](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Gaussianprocess.ipynb). A formalization of this can be shown as 
 
@@ -11,16 +11,20 @@ A gaussian process regression can be defined by calculating the mean function an
             source: http://www.gaussianprocess.org/gpml/chapters/RW2.pdf
             
 
-Key Components:
+## Key Components:
 To train a Gaussian Process you need the following components:
 * Cost Function: Negative Log Likelihood (in this case)
 * Optimization Method: Gradient Descent (in this case)
 * Kernel Method: RBF (in this case)
 
 The equation for Negative Log Likelihood is:
+
+
 <img src="images/negloglike.png" width="500">
 
 The RBF Kernel looks like:
+
+
 <img src="images/rbf.png" width="500">
 
 And gradient descent has an implementation similar to that of Machine Learning Refined Github
@@ -68,6 +72,12 @@ Something to help visualize the workflow:
 All of this is completed in the [Active Learning 1 Jupyter Notebook](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Activelearning1.ipynb) where I preprocess the data set and complete thi iteretive workflow to search for the samples with the best concrete compressive strength. 
 
 Once the workflow was finished running I plotted the highest compressive strength labels found for each querying method over iterations. 
+
+<img src="images/data.png" width="500">   
+
+The X-axis is iterations, and the Y axis is compressive strength. Blue line is uncertainty querying function, red line is greedy sampling, yellow line is MCAL sampling, and the green line is random sampling. We can see in the graph that all the strategies except for greedy search performed better than random sampling through the local search space. This graph can be found at the bottom of the [Active Learning 1 Jupyter Notebook](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Activelearning1.ipynb) The definitions and inner workings of the query strategies are beyond the scope of this project. 
+
+
 
 
 
