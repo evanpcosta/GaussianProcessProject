@@ -59,6 +59,9 @@ The application portion of this project was done using a multivariate data set a
 
 This workflow of iteratively training a gaussian process, querying data, and retraining the GP on newly labeled data to optimally search is called bayesian optimization. 
 
+Something to help visualize the workflow:
+
+<img src="images/activelearning.png" width="500">            
           
     
     
