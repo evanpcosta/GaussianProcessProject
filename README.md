@@ -4,6 +4,8 @@ This project aims to explore the applications of the Gaussian Process (GP). The 
 
 Defining Equations:
 
+A gaussian process can be defined by calculating the mean function and the covariance function of the data we are modeling. A graph of this is shown in 'Gaussian Process' Jupyter Notebook File. A formalization of this can be shown as 
+
 Key Components:
 
 Application Overview:
