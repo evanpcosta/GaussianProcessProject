@@ -8,6 +8,8 @@ A gaussian process can be defined by calculating the mean function and the covar
 
 <img scr="images/GPdef.png" width="5000">
 
+![](images/GPdef.png)
+
 source: http://www.gaussianprocess.org/gpml/chapters/RW2.pdf
 
 Key Components:
