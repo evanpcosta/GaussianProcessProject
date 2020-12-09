@@ -1,6 +1,14 @@
 # GaussianProcessProject
 
-This project aims to understand Gaussian Processes (GP), and apply a Guassian Process Regression to a concrete data set for optimized Baysian Inference search. Using this project we can further abstract a model that queries mutivariate parameters to find an optimized concrete samples over a global search spaces. Theoretically allowing us to make stronger and stronger concrete. The learning outcomes of this project are to understand the defining equations of a GP, how a GP can be used in a larger baysian optimization workflow, and and what are the key components of utilizing this machine learning model. 
+This project aims to understand Gaussian Processes (GP), and apply a Guassian Process Regression to a concrete data set for optimized Baysian Inference search. Using this project we can further abstract a model that queries mutivariate parameters to find an optimized concrete samples over a global search spaces. Theoretically allowing us to make stronger and stronger concrete. The learning outcomes of this project are to understand the defining equations of a GP, how a GP can be used in a larger baysian optimization workflow, and and what are the key components of utilizing this machine learning model.
+
+## Index 
+### * [Gradientdescent1.ipynb](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Gradientdescent1.ipynb) Gradient Descent for GP Notebook File
+In this file I walk through how to use gradient descent to optimize a gaussian process regression model
+### * [Gaussianprocess.ipynb](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Gaussianprocess.ipynb) Gaussian Process Jupyter Notebook File 
+In this file I walk through how a gaussian proces regression is created, the hyperparameters we optimize, and how gradient descent affects our model
+### * [Activelearning1.ipynb](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Activelearning1.ipynb) Active Learning Application
+In this file we apply the gradient descent workflow for bayesian optimization on a concrete toy dataset
 
 ## Defining Equations:
 
