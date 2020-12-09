@@ -61,10 +61,12 @@ This workflow of iteratively training a gaussian process, querying data, and ret
 
 Something to help visualize the workflow:
 
-<img src="images/activelearning.png" width="500">            
+<img src="images/activelearning%20.png" width="500">            
           
     
     
+All of this is completed in the [Active Learning 1 Jupyter Notebook](https://github.com/evanpcosta/GaussianProcessProject/blob/main/Activelearning1.ipynb) where I preprocess the data set and complete thi iteretive workflow to search for the samples with the best concrete compressive strength. 
+
 
 
 
