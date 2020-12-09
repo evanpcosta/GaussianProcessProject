@@ -6,6 +6,9 @@ Defining Equations:
 
 A gaussian process can be defined by calculating the mean function and the covariance function of the data we are modeling. A graph of this is shown in 'Gaussian Process' Jupyter Notebook File. A formalization of this can be shown as 
 
+![](images/GPdef.png)
+source: http://www.gaussianprocess.org/gpml/chapters/RW2.pdf
+
 Key Components:
 
 Application Overview:
